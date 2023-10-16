@@ -118,8 +118,14 @@ header nav ul li a{
   display: flex;
 }
 
-.plan div{
+.plan .row-item{
   border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.plan .row-head{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: .5rem;
 }
 
 .plan ul{
@@ -129,6 +135,30 @@ header nav ul li a{
 .row-item{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.row-item *{
+  padding: 1rem 0 1rem 1rem;
+}
+
+.row-item h3{
+  font-size: 1.2rem;
+}
+
+.price{
+  font-weight: bold;
+}
+
+.row-item .btn{
+  margin: 0 2rem;
+}
+
+.interline{
+  padding: 0;
+  margin-left: 2rem;
+  width: 20%;
 }
 
 footer{}
