@@ -1,3 +1,5 @@
+/* reset */
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +9,8 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+/* header\ */
 
 header{
   display: flex;
@@ -46,7 +50,11 @@ header nav ul li a{
   color: black;
 }
 
-main .jumbo{
+/* main */
+
+/* jumbo */
+
+.jumbo{
   background-color: #b4d0e7;
   display: flex;
   justify-content: center;
@@ -58,34 +66,69 @@ main .jumbo{
   flex-wrap: wrap;
 }
 
-main .jumbo h1{
+.jumbo h1{
   font-size: 5rem;
   font-weight: 900;
   padding: 4rem 0 2rem;
 }
 
-main .jumbo .img-text{
+.jumbo .img-text{
   width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-main .jumbo .img-text *{
+.jumbo .img-text *{
   margin: 1rem 0;
 }
 
-main .jumbo .fa-arrow-down{
+.jumbo .fa-arrow-down{
   font-size: 3.5rem;
   margin-top: 4rem;
 }
 
-main .jumbo img{
+.jumbo img{
   height: 500px;
   position: absolute;
   top: 420px;
   right: 350px;
 }
 
+/* section info */
+
+.info{
+  padding-top: 200px;
+}
+
+.small-container{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info h2{
+  font-size: 3rem;
+}
+
+.plan{
+  padding-top: 20px;
+  display: flex;
+}
+
+.plan div{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.plan ul{
+  list-style: none;
+}
+
+.row-item{
+  display: flex;
+  flex-direction: column;
+}
 
 footer{}
