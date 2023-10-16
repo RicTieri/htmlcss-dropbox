@@ -329,10 +329,38 @@ header nav ul li a {
 
 /* brand-bg */
 
-.color-1 {
+.single-brand{
+  background-color: aqua;
+}
+
+.left-side div:nth-child(1) {
   background-color: #0061ff;
 }
 
 .left-side div:nth-child(2) {
+  background-color: #b4d0e7;
+}
+
+.left-side div:nth-child(3) {
+  background-color: #b4d0e7;
+}
+
+.left-side div:nth-child(4) {
+  background-color: #b4d0e7;
+}
+
+.right-side div:nth-child(1) {
+  background-color: #0061ff;
+}
+
+.right-side div:nth-child(2) {
+  background-color: #b4d0e7;
+}
+
+.right-side div:nth-child(3) {
+  background-color: #b4d0e7;
+}
+
+.right-side div:nth-child(4) {
   background-color: #b4d0e7;
 }
