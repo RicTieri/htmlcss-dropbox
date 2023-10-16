@@ -305,12 +305,14 @@ header nav ul li a {
 .coop-brand {
   padding-top: 10rem;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .column-brand,
 .single-brand {
-  margin: 0;
-  padding: 0;
+  height: 645px;
   width: calc(100% / 3);
 }
 
@@ -348,6 +350,9 @@ header nav ul li a {
 }
 
 .left-side div:nth-child(1) {
+  width: 316px;
+  height: 322.5px;
+  border: 15px solid #d1e9cd;
   background-color: #a2d39b;
 }
 
