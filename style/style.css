@@ -427,3 +427,35 @@ header nav ul li a {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+/* footer */
+
+footer {
+  margin-top: 8rem;
+  background-color: black;
+  color: white;
+}
+
+.links {
+  margin: auto;
+}
+
+.link-container{
+  width: calc(100% / 5);
+}
+
+footer ul {
+  padding: 5rem 0;
+  list-style: none;
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+footer li {
+  padding: 0.66rem 0;
+}
+
