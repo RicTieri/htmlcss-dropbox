@@ -277,3 +277,11 @@ header nav ul li a{
   margin: 1.5rem;
 }
 
+.card img{
+  width: 100%;
+}
+
+.card h3{
+  font-size: 1.6rem;
+  padding: 2rem 0;
+}
