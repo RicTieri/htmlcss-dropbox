@@ -139,7 +139,12 @@ header nav ul li a{
   margin: 2rem;
 }
 
-.row-item *{
+.row-item span,
+.row.item button,
+.row-item ul,
+.row-item li,
+.row-item h3,
+.row-item h4{
   padding: 1rem 0 1rem 1rem;
 }
 
@@ -151,6 +156,10 @@ header nav ul li a{
   font-weight: bold;
 }
 
+.plan-expire{
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .row-item .btn{
   margin: 0 2rem;
 }
@@ -159,6 +168,7 @@ header nav ul li a{
   padding: 0;
   margin-left: 2rem;
   width: 20%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 footer{}
