@@ -46,11 +46,6 @@ header nav ul li a{
   color: black;
 }
 
-.btn-lightblue{
-  background-color: #b4d0e7;
-  color: black;
-}
-
 main .jumbo{
   background-color: #b4d0e7;
   display: flex;
@@ -58,9 +53,38 @@ main .jumbo{
 }
 
 .wider-container{
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
+}
+
+main .jumbo h1{
+  font-size: 5rem;
+  font-weight: 900;
+  padding: 4rem 0 2rem;
+}
+
+main .jumbo .img-text{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+main .jumbo .img-text *{
+  margin: 1rem 0;
+}
+
+main .jumbo .fa-arrow-down{
+  font-size: 3.5rem;
+  margin-top: 4rem;
+}
+
+main .jumbo img{
+  height: 500px;
+  position: absolute;
+  top: 420px;
+  right: 350px;
 }
 
 
