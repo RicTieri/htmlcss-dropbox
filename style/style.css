@@ -265,6 +265,10 @@ header nav ul li a{
 
 /* tools */
 
+.tools{
+  margin-top: 8rem;
+}
+
 .card-section{
   display: flex;
 }
@@ -285,3 +289,50 @@ header nav ul li a{
   font-size: 1.6rem;
   padding: 2rem 0;
 }
+
+/* more */
+
+.more{
+  padding-top: 8rem;
+}
+
+.more a{
+  padding: 2rem;
+}
+
+/* coop-brand */
+
+.coop-brand{
+ padding-top: 10rem;
+  display: flex;
+}
+
+.column-brand,
+.single-brand{
+  width: calc(100% / 3);
+}
+
+.column-brand{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-brand img{
+  width: 50%;
+  height: 50%;
+  scale: .5;
+}
+
+.single-brand img{
+  scale: .8;
+}
+
+/* brand-bg */
+
+.left-side img:nth-child(1){
+  background-color: #0061ff;
+}
+
+
+
+
