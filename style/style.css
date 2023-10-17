@@ -477,12 +477,12 @@ footer li {
 
 .interline-3{
   margin-left: 15%;
-  width: 10%;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 7%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .language{
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
   padding: 3.5rem 0;
   display: flex;
   align-items: center;
