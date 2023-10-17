@@ -305,7 +305,6 @@ header nav ul li a {
 .coop-brand {
   padding-top: 10rem;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -459,3 +458,19 @@ footer li {
   padding: 0.66rem 0;
 }
 
+.interline-3{
+  margin-left: 15%;
+  width: 10%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.language{
+  color: rgba(255, 255, 255, 0.4);
+  padding: 3.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.language i{
+  margin: .5rem;
+}
