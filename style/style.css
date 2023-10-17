@@ -69,7 +69,7 @@ header nav ul li a {
 .jumbo h1 {
   font-size: 5rem;
   font-weight: 900;
-  padding: 4rem 0 2rem;
+  padding: 1rem 0 1.8rem;
 }
 
 .jumbo .img-text {
@@ -88,12 +88,27 @@ header nav ul li a {
   margin-top: 4rem;
 }
 
-.jumbo img {
+.jumbo .column-70{
+  width: 70%;
+  margin: 1rem 0;
+}
+
+.jumbo img{
+  width: 100%;
+}
+
+.jumbo > .wider-container{
+  position: relative;
+  top: 100px;
+}
+
+
+/* .jumbo img {
   height: 500px;
   position: absolute;
   top: 420px;
   right: 350px;
-}
+} */
 
 /* section info */
 
