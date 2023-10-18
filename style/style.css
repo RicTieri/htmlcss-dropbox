@@ -383,14 +383,10 @@ li:hover .sub-menu{
   justify-content: center;
 }
 
-.column-brand{
-  width: 32vw;
-  height: 32vw;
-}
-
+.column-brand,
 .single-brand{
-  width: calc( 100% - 64vw);
-  height: 32vw;
+  width: calc( 100vw / 3);
+  height: calc( 100vw /3);
 }
 
 .column-brand {
@@ -399,8 +395,8 @@ li:hover .sub-menu{
 }
 
 .column-brand > div{
-  width: 16vw;
-  height: 16vw;
+  width: 50%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,6 +411,11 @@ li:hover .sub-menu{
 .single-brand img {
   width: 50%;
   padding: 1rem;
+}
+
+.column-brand > div:hover,
+.single-brand:hover{
+  border: 15px solid rgba(255, 255, 255, 0.6);
 }
 
 .single-brand p {
@@ -434,9 +435,6 @@ li:hover .sub-menu{
 }
 
 .left-side div:nth-child(1) {
-  width: 16vw;
-  height: 16vw;
-  border: 15px solid #d1e9cd;
   background-color: #a2d39b;
 }
 
