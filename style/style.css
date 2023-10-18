@@ -385,6 +385,7 @@ li:hover .sub-menu{
 
 .column-brand{
   width: 32vw;
+  height: 32vw;
 }
 
 .single-brand{
@@ -406,19 +407,14 @@ li:hover .sub-menu{
 }
 
 .column-brand img {
-  scale: .3;
+  width: 50%;
+  margin: auto;
   filter: invert(1);
 }
 
-.left-side div:nth-child(3) img {
-  height: 70px;
-}
-
 .single-brand img {
-  scale: 0.5;
-  position: relative;
-  top: -1rem;
-  left: -5rem;
+  width: 50%;
+  padding: 1rem;
 }
 
 .single-brand p {
